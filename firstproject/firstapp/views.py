@@ -11,4 +11,4 @@ def start(request):
     )
     a_fetched = Account.objects.all()
     print(a_fetched)
-    return HttpResponse("Hello")
+    return HttpResponse("<h1>Hello</h1>")
